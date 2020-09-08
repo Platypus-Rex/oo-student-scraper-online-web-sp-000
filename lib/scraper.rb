@@ -23,7 +23,7 @@ class Scraper
     # :name, :location, :profile_url
     #populer array med hash med verdier hentet fra siden
     #returner array med hash for hver student i listen
-
+binding.pry
 
   end
 
