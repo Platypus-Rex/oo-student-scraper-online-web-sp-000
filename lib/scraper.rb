@@ -11,6 +11,7 @@ class Scraper
     site = Nokogiri::HTML(open(index_url))
     #hent alle studentene
     #lag loop på antall student card
+    roster = site.css(".roster-cards-container")
     site.css(".student-card")
     #student navn, lokasjon og url
     #hent ut denne info og lagre i array
